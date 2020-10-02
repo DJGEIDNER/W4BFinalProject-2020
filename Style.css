@@ -1,0 +1,181 @@
+/* START OF NAV*/
+.nav-bar {
+    height: 62px;
+    width: 100%;
+    background-color: rgb(209, 236, 216);
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.nav-list {
+    float: right;
+}
+
+
+.list-item {
+    display: inline-block;
+    margin: 15px;
+    list-style-type: none;
+}
+.item {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1px;
+    border: 2px solid #449e50;
+    border-radius: 5px;
+}
+.item:hover {
+    background-color: hsl(258, 89%, 71%);
+    color: white;
+}
+  
+/* START OF BANNER */
+.banner {
+  background-image: url("Images/PunsforPlants.PNG");
+  background-repeat: repeat-x;
+  background-size: auto; 
+  background-position: center; 
+  height: 300px;
+  width: 100%;
+  top: 80px;
+  
+}
+
+.banner-text {
+  text-align: center;
+  height: 55px;
+  width: 100%;
+  background-color: rgb(154, 216, 154);
+}
+
+h1 {
+  font-size: xx-large;
+  color: black;
+}
+
+/* START OF MAIN */
+.content {
+  height: 600px;
+  width: 100%;
+  margin-top: auto;
+   }
+
+.column {
+  height: 500px;
+  width: 32%;
+  border: 3px solid black;
+  float: left;
+  background-color: rgba(241, 240, 233, 0.877);
+/* fix the columns placemet add text */
+}
+
+/* SET SIZE OF IMAGES */
+.lavender {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+.sage {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+.eucalyptus {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+/* Set margin text in colum  */
+p {
+  font-size: medium;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+
+
+
+/* START OF FOOTER*/
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(129, 214, 129);
+ }
+ 
+ .footer-text {
+  text-align: center;
+  padding: 2ch;
+ }
+ .footer-col {
+  height: 70px;
+  width: 100%;
+  border: 1px solid black;
+  float: left;
+ }
+
+ /* About */
+ .about-container {
+  height: 700px;
+  width: 100%;
+  background-image: url(Images/Gro-So-Athome.jpg);
+  background-repeat: repeat-x;
+  background-size: 900px 100%;
+}
+.show  {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 12.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-left: 12.25%;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: 60%;
+}
+
+
+ /* Contact me */
+.contact-container {
+  height: 700px;
+  width: 100%;
+  background-image: url("Images/RosemaryPlant.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+}
+.ibox {
+  width: 400px;
+  height: 150px;
+  padding: 75px;
+  background-color:bisque;
+  opacity: .2;
+  text-align: center;
+}
+
+label {
+  height: 80px;
+  width: 100px;
+  font-size: xxlarge;
+  font-weight: bolder;
+  margin-left: 18%;
+  
+  }
+

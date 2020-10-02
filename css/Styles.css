@@ -1,0 +1,24 @@
+
+nav  {
+  Height: 70px;
+  width: 100%;
+  background-color: cream;
+}
+
+}
+li {
+  display: inline-block;
+  margin-right: 33px;
+  height: 40px;
+  width: 60px;
+  background-color: cream;
+  
+}
+  .list-items {
+    float: right;
+    text-decoration: none;
+  
+}
+  
+/* End of the Navigation Bar */
+  
